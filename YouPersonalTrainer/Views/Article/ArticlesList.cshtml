@@ -1,0 +1,25 @@
+﻿@model YouPersonalTrainer.Models.ArticlesViewModel
+{
+@using YouPersonalTrainer.Models
+}
+
+
+@{
+    ViewBag.Title = "ArticlesList";
+}
+
+@foreach (var item in Model.Articles)
+{
+    <text>@item.Title<br /></text>
+}
+
+
+<div>
+    <ul class="ArticlesMenu">
+        <li><a href="@Url.Action("ArticlesList", "Article", new { id = "Diet" })">Питание</a></li>
+        <li><a href="@Url.Action("ArticlesList", "Article", new { id = "Training" })">Тренировки</a></li>
+        <li><a href="@Url.Action("ArticlesList", "Article", new { id = "Motivation" })">Мотивация</a></li>
+        <li><a href="@Url.Action("ArticlesList", "Article", new { id = "Health" })">Здоровье</a></li>       
+        <li><a href="@Url.Action("ArticlesList", "Article", new { id = "News" })">Новости</a></li>
+    </ul>
+</div>

@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Database" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="DatabaseContainer" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="ArticlesSet" EntityType="Database.Articles" />
+  </EntityContainer>
+  <EnumType Name="ArticlesCategories">
+    <Member Name="Diet" />
+    <Member Name="Health" />
+    <Member Name="News" />
+    <Member Name="Motivation" />
+    <Member Name="Training" />
+  </EnumType>
+  <EntityType Name="Articles">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Type="Int32" Name="Id" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Type="String" Name="Title" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Type="String" Name="Header" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Type="String" Name="Quote" Nullable="true" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Type="String" Name="Text" Nullable="false" MaxLength="Max" Unicode="true" FixedLength="false" />
+    <Property Type="Database.ArticlesCategories" Name="Category" Nullable="false" />
+    <Property Type="String" Name="Photo" Nullable="true" />
+  </EntityType>
+</Schema>

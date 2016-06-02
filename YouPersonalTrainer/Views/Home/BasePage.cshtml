@@ -1,0 +1,46 @@
+﻿@{
+    ViewBag.Title = "Твой личный тренер";
+}
+@section featured {
+    <section class="featured">        
+    </section>
+}
+ <div class="photo">
+            <img id="Photo" src="./Content/Images/10.jpg" />
+        </div>
+        
+
+
+        <!-- -------------------------------PURPOSE------------------------------------
+            ----------------------------------------------------------- -->
+        <section class="purpose">
+            <div class="slogan">
+                <h3>Не обещай. Поставь себе цель. Действуй.</h3>
+            </div>
+            <div class="base_purpose">
+                <ul class="purpose_menu">
+                    <li><a href="./Views/PurposePages/Purpose.cshtml#">Больше бегать</a></li>
+                    
+                    <li><a href="./Views/PurposePages/Purpose.cshtml#">Сжигать калории</a></li>
+                    
+                    <li><a href="./Views/PurposePages/Purpose.cshtml#">Заниматься чаще</a></li>
+                </ul>
+            </div>
+        </section>
+
+
+
+        <!-- -------------------------------MENU2------------------------------------
+            ----------------------------------------------------------- -->
+       
+        
+         <nav class="menu2">
+            <ul class="menu_two">                
+                    <li id="run">@Html.ActionLink("Бег", "TrainingRunning", "TrainingPages")
+                    </li>           
+                    <li id="fit">@Html.ActionLink("Фитнес", "TrainingFitness", "TrainingPages")
+                    </li>        
+                <li id="pit">@Html.ActionLink("Питание", "Diet", "Home")
+                    </li>        
+            </ul>
+         </nav>

@@ -1,0 +1,67 @@
+﻿@{
+    ViewBag.Title = "Article";
+}
+
+<div>
+    <ul class="ArticlesMenu">
+        <li><a href="@Url.Action("ArticlesList", "Article", new { id = "Diet" })">Питание</a></li>
+        <li><a href="@Url.Action("ArticlesList", "Article", new { id = "Training" })">Тренировки</a></li>
+        <li><a href="@Url.Action("ArticlesList", "Article", new { id = "Motivation" })">Мотивация</a></li>
+        <li><a href="@Url.Action("ArticlesList", "Article", new { id = "Health" })">Здоровье</a></li>       
+        <li><a href="@Url.Action("ArticlesList", "Article", new { id = "News" })">Новости</a></li>
+    </ul>
+</div>
+<section class="AllArticles">
+    <h3><a href="@Url.Action("ArticlesList", "Article", new { id = "Diet" })">Питание</a></h3>
+    <ul class="ListArticlesDiet">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+   
+    <h3><a href="@Url.Action("ArticlesList", "Article", new { id = "Training" })">Трениовочный процесс</a></h3>
+    <ul class="ListArticlesFitness">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <h3><a href="@Url.Action("ArticlesList", "Article", new { id = "Motivation" })">Мотивация</a></h3>
+    <ul class="ListArticlesMotivation">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <h3><a href="@Url.Action("ArticlesList", "Article", new { id = "Health" })">Здоровье</a></h3>
+    <ul class="ListArticlesHealth">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+    <h3><a href="@Url.Action("ArticlesList", "Article", new { id = "News" })">Новости</a></h3>
+    <ul class="ListArticlesNews">
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+</section>

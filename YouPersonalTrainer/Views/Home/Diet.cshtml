@@ -1,0 +1,22 @@
+﻿@{
+    ViewBag.Title = "Питание";
+}
+<!--секция скриптов-->
+@section Scripts {
+    @Scripts.Render("~/Scripts/MyScripts.js")
+}
+   
+
+<div class="DietMenu">
+    <ul class="DietMenu">
+        <li class="proper">
+            <a class="link0" href="@Url.Action("ProperNutrition", "DietPages")">Все о правильном<br /> питании</a>
+            <p class="properText">Основные принципы<br /> Частые ошибки<br /> Подсчет калорий<br />
+            </p>
+          </li>                
+        <li class="protein"><a class="link1" href="@Url.Action("ProteinDiet", "DietPages")">Белковая диета</a></li>
+        <li class="recipes"><a class="link2" href="@Url.Action("Recipes", "DietPages")">Рецепты</a></li>
+        <li class="vegan"><a class="link3" href="@Url.Action("VegetarianCuisine", "DietPages")">Вегетарианская кухня</a></li>
+        <li class="journal"><a class="link1" href="@Url.Action("Journal_diet", "Journal")">Составь свое меню</a></li>
+    </ul>
+</div>

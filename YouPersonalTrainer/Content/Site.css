@@ -1,0 +1,1060 @@
+﻿html {    
+    margin: 0;
+    padding: 0;
+}
+body {
+    
+    background-color: #fff;
+    border: none;
+    color: #333;
+    font-size: .85em;
+    font-family: "Segoe UI", Verdana, Helvetica, Sans-Serif;
+    margin: 0;
+    padding: 0;
+}
+a {
+    color: #333;
+  
+    text-decoration: underline;
+}
+
+
+#body {
+display: block;
+
+}
+
+
+/*FONTS ---------------------------------------------------
+    "Segoe UI Ligth"
+     "Calibri"  */
+
+
+
+mark {
+    background-color: #a6dbed;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.headline {
+     
+    float: left;
+}
+.registration {
+    font: normal 17px Segoe UI;
+    float: right;
+    
+}
+
+h1, h2, h3,
+h4, h5, h6 {
+    color: #000;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+h1 {
+    font-size: 2em;
+}
+h2 {
+    font-size: 1.75em;
+}
+h3 {
+    font-size: 1.2em;
+}
+h4 {
+    font-size: 1.1em;
+}
+h5, h6 {
+    font-size: 1em;
+}
+    h5 a:link, h5 a:visited, h5 a:active {
+        padding: 0;
+        text-decoration: none;
+    }
+
+/* main layout
+----------------------------------------------------------*/
+
+
+.header {
+    display: block;
+    width: 96%;
+    height: 50px;
+    margin: 0 0 0 0;
+    padding: 1% 2% 0 2%;
+    background-color: #000;
+}
+    .header li {
+        display: inline-block;
+        color: #fff;
+        background-repeat: no-repeat;
+        background-position: top;
+        background-size: cover;
+        position: static;
+        z-index: 1;
+        font: normal 17px "Segoe UI";
+    }
+
+
+
+/* site title
+----------------------------------------------------------*/
+.site-title {
+    color: #C0C0C0;
+    font-family: Rockwell, Consolas, "Courier New", Courier, monospace;
+    font-size: 1.5em;
+    margin: 0;
+    
+    
+}
+.site-title a, .site-title a:active {
+    background: none;
+    color: #696969;
+    outline: none;
+    text-decoration: none;
+}
+    .site-title a:hover {
+         color: #fff;
+    }
+
+
+/* logo
+----------------------------------------------------------*/
+#logo {    
+    width: 50px;
+    height: 50px;    
+        }
+
+/* login
+----------------------------------------------------------*/
+#login {
+     color: #fff;
+    display: block;
+    font-size: .85em;   
+    text-align: right;
+    margin: 10px 10px 10px 0;
+}
+    #login a {
+         color: #fff;
+        background-color: #000;
+        margin-left: 10px;
+        margin-right: 3px;
+        padding: 2px 6px 0 4px;
+        text-decoration: none;
+        font: normal 14px "Segoe UI";
+    }
+    #login a.username {        
+        margin: 0;
+        padding: 0;
+        text-decoration: underline;
+    }
+    #login ul {
+        margin: 0;
+    }
+    #login li {
+        color: #fff;
+        display: inline;
+        list-style: none;
+        font: normal 14px "Segoe UI";
+        background-color: #000;
+    }      
+        #in::before {
+        content: "|";
+    }
+#registerLink:hover {
+    color:#E0FFFF;
+    opacity: 0.8;
+}
+ #loginLink:hover {
+    color:#E0FFFF;
+    opacity: 0.8;
+}
+
+      
+/* menu1
+----------------------------------------------------------*/
+.menu1 {
+    font: normal 40px "Segoe UI";
+    padding: 0 5px 0 40px;
+    background-color: #fff;    
+    margin: 10px 0 50px 0;
+}
+.menu li {
+    display: inline-block;
+    text-decoration: none;
+    list-style: none;
+    padding-left: 1.8%;
+    padding-right: 4%;
+    position: relative;
+}
+ .menu a {
+    color: black ;
+    text-decoration: none;
+}
+    .menu a:hover {
+    color: #000080;
+    
+
+    }
+
+ul.menu, ul.training-inside {
+list-style-type: none;
+padding: 0 0 0 50px;
+}
+ul.training-inside {
+    position: absolute;
+    left: -9999px;
+    }
+ul.menu li.training-top {
+display: inline-block;
+margin: 35px 0 0 0;
+}
+ul.menu li.training-top a {
+ padding: 0;
+ display: block;
+ }
+
+ ul.menu li.training-top:hover .training-inside {
+ display: block;
+ left: 0;
+ }
+ ul.menu .training-inside {
+     margin: 0 0 0 -40px;
+     display: block;
+     font: normal 30px "Segoe UI";
+ }
+    ul.menu .training-inside li {
+        display: block;
+        padding: 10px 5px 0 0;
+        margin: 0 -10px 0 0;
+        text-align: center;
+        background-color: #fff;
+        color: #333; 
+        width: 250px;
+        height: 60px;
+        
+
+     }
+
+        ul.menu .training-inside li:hover {
+            color: #000;
+            background-color: #f1f1f1;
+        }
+#trainer_menu_for {
+    padding: 0 6% 0 1.5%;
+}
+
+/*BASE PAGE
+----------------------------------------------------------------------------*/
+/* photo BASE PAGE
+----------------------------------------------------------*/
+.photo {
+    display: block;    
+    padding: 0;
+    margin: 15px 0 10px 0;
+    border: none;
+}
+#Photo {
+    width: 100%;
+    height: 500px;
+}
+/* purpose
+----------------------------------------------------------*/
+.purpose {
+    display: block;
+    width: 100%;
+    height: 120px;
+    padding-bottom: 10px;    
+}
+.slogan {
+    text-align: center;
+    font: normal 25px "Corbel";
+    letter-spacing: 8px;
+    padding-top: 0;
+}
+.purpose_menu li {
+    display: inline-block;
+    width: 30%;
+    text-align:center;
+    text-decoration: none;
+    list-style: none;
+    font: normal 35px "Corbel";
+
+}
+.purpose_menu li a{
+    
+    text-decoration: none;
+    list-style: none;
+}
+    .purpose_menu li a:hover {
+    color: #000080;
+    }
+
+/* menu2
+----------------------------------------------------------*/
+.menu2 {
+display: block;
+margin: 0 4% 0 9%;
+}
+.menu_two li {
+    display: inline-block;
+    color: aqua;    
+    background-color: antiquewhite;
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    width: 50%;
+    height: 300px;
+    margin: 0 40px 0 -50px;
+    text-align: center;
+}
+    .menu_two li a {
+        display: inline-block;
+        text-decoration: none;
+        color: #fff;
+        margin: -20px 0 0 0;
+        padding: 150px 0 0 0;
+        list-style-image: none;
+        list-style-type: disc;
+        letter-spacing: 8px;
+        font: normal 60px "Corbel";
+    }
+        .menu_two li a:hover {
+            color: #000080;
+        }        
+#pit {
+    display: block;
+    height: 300px;
+    width: 99.5%;
+    background: #a6dbed url("/Content/Images/55.jpg") no-repeat;
+}
+#fit {
+    background-image: url("/Content/Images/4.jpg");
+}
+#run {
+background-image: url("/Content/Images/5.jpg");
+}
+
+/*DIET PAGE
+----------------------------------------------------------*/
+
+.DietMenu {
+    background-color: #000;
+    display: block;
+    padding: 0;
+    margin: 10px 0 10px 0;
+}
+    .DietMenu li {
+        background-color: #000;
+        display: inline-block;
+        width: 100%;
+        height: 250px;
+        border-top: 1px groove black;
+    }
+        .DietMenu a{
+            display: inline-block;
+            text-decoration: none;            
+            margin: 95px 0 0 30px;
+            padding: 0 0 0 0;
+            list-style-image: none;
+            letter-spacing: 6px;            
+            font: normal 30px "Corbel";        
+        }
+.link0:hover {
+    color: #8d4100;
+}        
+        .link1:hover {
+    color: #faaad4;    
+    }
+.link2 {
+    color:#fff;
+}
+.link2:hover {
+    color: #06b714;
+}
+.link3 {
+    color: #000;
+}
+    .link3:hover {
+        color:  #06b714;
+    }
+
+    .DietMenu .proper {
+    display: block;
+    background: #C0C0C0 url("/Content/Images/41.jpg") no-repeat;
+    color: #000;
+    }
+.properText {
+    text-align: right;
+    margin: -70px 100px 0 0;
+    font: normal 25px "Corbel";
+    color: #000;
+}
+    .DietMenu .protein {
+    display: block;
+    background: #C0C0C0 url("/Content/Images/42.jpg") no-repeat;
+    color: #000;
+    }
+    .DietMenu .recipes {
+    display: block;
+    background: #000 url("/Content/Images/48.jpg") no-repeat;
+    text-align:center;
+    margin: 0 0 0 0;
+    color: #fff;
+    }       
+    .DietMenu .vegan {
+    display: block;
+    background: #C0C0C0 url("/Content/Images/45.jpg") no-repeat;
+    
+    }
+    .DietMenu .journal {
+    display: block;
+    background: #C0C0C0 url("/Content/Images/62.jpg") no-repeat;
+    color: #000;
+    text-align: center;
+    }
+
+
+    /*TRAINING FITNESS PAGE
+----------------------------------------------------------*/
+
+
+
+
+.MenuFitness {
+    background-color: #000;
+    display: inline-block;
+    width: 100%;
+    height: 100px;
+    margin: 20px 0 70px 0;
+    
+
+}
+
+.MenuFitness  li {
+        display: inline-block;
+        width: 30%;
+        height: 70px;
+        text-align: center;
+        background-color: #000;
+        border-bottom: 1px groove black;
+        margin: 0 0 25px -2px ;
+        padding: 10px 20px 0 20px;
+    }
+
+        .MenuFitness  li a {
+            font: normal 30px "Segoe UI";
+            text-decoration: none;
+            margin:0;
+            padding: 0;
+            list-style-image: none;
+            letter-spacing: 6px;      
+            color: #fff;             
+        }
+
+            .MenuFitness  li a:hover {
+            color: #C0C0C0;
+            }
+
+
+ul.MenuFitness, ul.manual-inside {
+    list-style-type: none;
+    padding: 0 0 0 10px;
+}
+
+ul.manual-inside {
+    position: absolute;
+    left: -9999px;
+}
+ul.MenuFitness li.manual-top {
+    display: inline-block;
+    margin: 15px 0 10px 0;
+    
+}
+
+    ul.MenuFitness li.manual-top a {
+        display: block;
+        padding: 0;
+    }
+    ul.MenuFitness li.manual-top:hover .manual-inside {
+        display: block;
+        left: 0;
+        padding: 35px 0 0 0;
+    }
+
+ul.MenuFitness .manual-inside {
+    
+    margin: 0 0 0 380px;
+    display: block;
+    color: #fff;
+  
+}
+
+    ul.MenuFitness .manual-inside li {
+        display: inline-block;
+        padding: 30px -20px 10px 20px;
+        margin: 0 -10px 0 -10px ;
+        text-align: center;
+        background-color: #000;
+        color: #333; 
+        width: 180px;
+        height: 30px;
+        border-top: 1px groove #fff; 
+        
+
+     }
+
+        ul.MenuFitness .manual-inside li:hover {
+            color: #fff;
+            background-color: #000;
+        }
+
+
+        ul.MenuFitness .manual-inside li a {
+            font: normal 17px "Segoe UI";
+            
+        }
+
+
+
+        /*TRAINING RUNNING PAGE
+----------------------------------------------------------*/
+
+        
+        .MenuRunning {
+    background-color: #000;
+    display: inline-block;
+    width: 100%;
+    height: 110px;
+    margin: 20px 0 50px 0;
+    
+
+}
+
+.MenuRunning  li {
+        display: inline-block;
+        width: 20%;
+        height: 60px;
+        text-align: center;
+        background-color: #000;
+        border-bottom: 1px groove black;
+        margin: 5px 0 10px 20px ;
+        padding: 10px 0 0 40px;
+    }
+
+        .MenuRunning  li a {
+            font: normal 23px "Segoe UI";
+            text-decoration: none;
+            margin:0;
+            padding: 0 0 20px 0;
+            list-style-image: none;
+            letter-spacing: 6px;      
+            color: #fff;             
+        }
+
+            .MenuRunning  li a:hover {
+            color: #C0C0C0;
+            }
+
+
+
+
+ .ArticlesMenu {
+    background-color: #000;
+    display: inline-block;
+    width: 100%;
+    height: 60px;
+    margin: 20px 0 50px 0;
+    
+
+}
+
+.ArticlesMenu li {
+        display: inline-block;
+        width: 14%;
+        text-align: center;
+        background-color: #000;
+        border-bottom: 1px groove black;
+        margin: 5px 0 10px 20px ;
+        padding: 10px 0 0 40px;
+    }
+
+        .ArticlesMenu  li a {
+            font: normal 23px "Segoe UI";
+            text-decoration: none;
+            margin:0;
+            padding: 0 0 20px 0;
+            list-style-image: none;
+            letter-spacing: 6px;      
+            color: #fff;             
+        }
+
+            .ArticlesMenu  li a:hover {
+            color: #C0C0C0;
+            }
+
+
+
+
+
+
+
+
+
+
+/* page elements
+----------------------------------------------------------*/
+/* featured */
+.featured {
+    background-color: #fff;
+}
+   /* .featured .content-wrapper {
+        background-color: #7ac0da;
+        background-image: -ms-linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
+        background-image: -o-linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
+        background-image: -webkit-gradient(linear, left top, right top, color-stop(0, #7ac0da), color-stop(1, #a4d4e6));
+        background-image: -webkit-linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
+        background-image: linear-gradient(left, #7ac0da 0%, #a4d4e6 100%);
+        color: #3e5667;
+        padding: 20px 40px 30px 40px;
+    }
+        .featured hgroup.title h1, .featured hgroup.title h2 {
+            color: #fff;
+        }
+        .featured p {
+            font-size: 1.1em;
+        }*/
+
+/* page titles */
+hgroup.title {
+    margin-bottom: 10px;
+}
+hgroup.title h1, hgroup.title h2 {
+    display: inline;
+}
+hgroup.title h2 {
+    font-weight: normal;
+    margin-left: 3px;
+}
+
+/* features */
+section.feature {
+    width: 300px;
+    float: left;
+    padding: 10px;
+}
+
+/* ordered list */
+ol.round {
+    list-style-type: none;
+    padding-left: 0;
+}
+    ol.round li {
+        margin: 25px 0;
+        padding-left: 45px;
+    }
+        ol.round li.zero {
+            background: url("../Images/orderedList0.png") no-repeat;
+        }
+        ol.round li.one {
+            background: url("../Images/orderedList1.png") no-repeat;
+        }
+        ol.round li.two {
+            background: url("../Images/orderedList2.png") no-repeat;
+        }
+        ol.round li.three {
+            background: url("../Images/orderedList3.png") no-repeat;
+        }
+        ol.round li.four {
+            background: url("../Images/orderedList4.png") no-repeat;
+        }
+        ol.round li.five {
+            background: url("../Images/orderedList5.png") no-repeat;
+        }
+        ol.round li.six {
+            background: url("../Images/orderedList6.png") no-repeat;
+        }
+        ol.round li.seven {
+            background: url("../Images/orderedList7.png") no-repeat;
+        }
+        ol.round li.eight {
+            background: url("../Images/orderedList8.png") no-repeat;
+        }
+        ol.round li.nine {
+            background: url("../Images/orderedList9.png") no-repeat;
+        }
+
+/* content */
+article {
+    float: left;
+    width: 70%;
+}
+aside {
+    float: right;
+    width: 25%;
+}
+    aside ul {
+        list-style: none;
+        padding: 0;
+    }
+        aside ul li {
+            background: url("../Images/bullet.png") no-repeat 0 50%;
+            padding: 2px 0 2px 20px;
+        }
+.label {
+    font-weight: 700;
+}
+
+
+/* login page */
+#loginForm {
+    border-right: solid 2px #c8c8c8;
+    float: left;
+    width: 55%;
+}
+    #loginForm .validation-error {
+        display: block;
+        margin-left: 15px;
+    }
+    #loginForm .validation-summary-errors ul {
+        margin: 0;
+        padding: 0;
+    }
+    #loginForm .validation-summary-errors li {
+        display: inline;
+        list-style: none;
+        margin: 0;
+    }
+    #loginForm input {
+        width: 250px;
+    }
+    #loginForm input[type="checkbox"],
+    #loginForm input[type="submit"],
+    #loginForm input[type="button"],
+    #loginForm button {
+        width: auto;
+    }
+
+#socialLoginForm {
+    margin-left: 40px;
+    float: left;
+    width: 40%;
+}
+    #socialLoginForm h2 {
+        margin-bottom:  5px;
+    }
+#socialLoginList button {
+    margin-bottom: 12px;
+}
+#logoutForm {
+    display: inline;
+}
+
+/* contact */
+.contact h3 {
+    font-size: 1.2em;
+}
+.contact p {
+    margin: 5px 0 0 10px;
+}
+.contact iframe {
+    border: 1px solid #333;
+    margin: 5px 0 0 10px;
+}
+
+/* forms */
+fieldset {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+    fieldset legend {
+        display: none;
+    }
+    fieldset ol {
+        padding: 0;
+        list-style: none;
+    }
+        fieldset ol li {
+            padding-bottom: 5px;
+        }
+label {
+    display: block;
+    font-size: 1.2em;
+    font-weight: 600;
+}
+label.checkbox {
+    display: inline;
+}
+input, textarea {
+    border: 1px solid #e2e2e2;
+    background: #fff;
+    color: #333;
+    font-size: 1.2em;
+    margin: 5px 0 6px 0;
+    padding: 5px;
+    width: 300px;
+}
+textarea {
+    font-family: inherit;
+    width: 500px;
+}
+    input:focus, textarea:focus {
+        border: 1px solid #7ac0da;
+    }
+    input[type="checkbox"] {
+        background: transparent;
+        border: inherit;
+        width: auto;
+    }
+    input[type="submit"],
+    input[type="button"],
+    button {
+        background-color: #d3dce0;
+        border: 1px solid #787878;
+        cursor: pointer;
+        font-size: 1.2em;
+        font-weight: 600;
+        padding: 7px;
+        margin-right: 8px;
+        width: auto;
+    }
+    td input[type="submit"],
+    td input[type="button"],
+    td button {
+        font-size: 1em;
+        padding: 4px;
+        margin-right: 4px;
+    }
+
+/* info and errors */
+.message-info {
+    border: 1px solid;
+    clear: both;
+    padding: 10px 20px;
+}
+.message-error {
+    clear: both;
+    color: #e80c4d;
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+.message-success {
+    color: #7ac0da;
+    font-size: 1.3em;
+    font-weight: bold;
+    margin: 20px 0 10px 0;
+}
+.error {
+    color: #e80c4d;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #e80c4d;
+    font-weight: bold;
+}
+.field-validation-valid {
+    display: none;
+}
+input.input-validation-error {
+    border: 1px solid #e80c4d;
+}
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+.validation-summary-errors {
+    color: #e80c4d;
+    font-weight: bold;
+    font-size: 1.1em;
+}
+.validation-summary-valid {
+    display: none;
+}
+
+/* tables
+----------------------------------------------------------*/
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    margin-top: 0.75em;
+    border: 0 none;
+}
+th {
+    font-size: 1.2em;
+    text-align: left;
+    border: none 0px;
+    padding-left: 0;
+}
+    th a {
+        display: block;
+        position: relative;
+    }
+    th a:link, th a:visited, th a:active, th a:hover {
+        color: #333;
+        font-weight: 600;
+        text-decoration: none;
+        padding: 0;
+    }
+    th a:hover {
+        color: #000;
+    }
+    th.asc a, th.desc a {
+        margin-right: .75em;
+    }
+    th.asc a:after, th.desc a:after {
+        display: block;
+        position: absolute;
+        right: 0em;
+        top: 0;
+        font-size: 0.75em;
+    }
+    th.asc a:after {
+        content: '▲';
+    }
+    th.desc a:after {
+        content: '▼';
+    }
+td {
+    padding: 0.25em 2em 0.25em 0em;
+    border: 0 none;
+}
+tr.pager td {
+    padding: 0 0.25em 0 0;
+}
+
+/********************
+*   Mobile Styles   *
+********************/
+@media only screen and (max-width: 850px) {
+
+    /* header
+    ----------------------------------------------------------*/
+    header .float-left,
+    header .float-right {
+        float: none;
+    }
+    /* logo */
+    header .site-title {
+        margin: 10px;
+        text-align: center;
+    }
+    /* login */
+    #login {
+        font-size: .85em;
+        margin: 0 0 12px;
+        text-align: center;
+    }
+        #login ul {
+            margin: 5px 0;
+            padding: 0;
+        }
+        #login li {
+            display: inline;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        #login a {
+            background: none;
+            color: #999;
+            font-weight: 600;
+            margin: 2px;
+            padding: 0;
+        }
+        #login a:hover {
+            color: #333;
+        }
+  
+    /* main layout
+    ----------------------------------------------------------*/
+    .main-content,
+    .featured + .main-content {
+        background-position: 10px 0;
+    }
+    .content-wrapper {
+        padding-right: 10px;
+        padding-left: 10px;
+        
+    }
+    .featured .content-wrapper {
+        padding: 10px;
+    }
+
+    /* page content */
+    article, aside {
+        float: none;
+        width: 100%;
+    }
+    /* ordered list */
+    ol.round {
+        list-style-type: none;
+        padding-left: 0;
+    }
+        ol.round li {
+            padding-left: 10px;
+            margin: 25px 0;
+        }
+            ol.round li.zero,
+            ol.round li.one,
+            ol.round li.two,
+            ol.round li.three,
+            ol.round li.four,
+            ol.round li.five,
+            ol.round li.six,
+            ol.round li.seven,
+            ol.round li.eight,
+            ol.round li.nine {
+                background: none;
+            }
+
+     /* features */
+     section.feature {
+        float: none;
+        padding: 10px;
+        width: auto;
+     }
+        section.feature img {
+            color: #999;
+            content: attr(alt);
+            font-size: 1.5em;
+            font-weight: 600;
+        }
+    /* forms */
+    input {
+        width: 90%;
+    }
+
+    /* login page */
+    #loginForm {
+        border-right: none;
+        float: none;
+        width: auto;
+    }
+        #loginForm .validation-error {
+            display: block;
+            margin-left: 15px;
+        }
+    #socialLoginForm {
+        margin-left: 0;
+        float: none;
+        width: auto;
+    }
+
+    /* footer
+    ----------------------------------------------------------*/
+    footer .float-left,
+    footer .float-right {
+        float: none;
+    }
+    footer {
+        text-align: center;
+        height: auto;
+        padding: 10px 0;
+        
+    }
+        footer p {
+            margin: 0;
+        }
+}

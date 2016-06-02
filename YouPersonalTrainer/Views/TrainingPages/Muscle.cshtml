@@ -1,0 +1,18 @@
+﻿@{
+    ViewBag.Title = "Muscle";
+}
+
+<div>
+    <ul class="MenuFitness">
+        <li><a href="@Url.Action("TrainingFitness", "TrainingPages")">Упражнения</a></li>
+        <li class="manual-top"><a href="@Url.Action("TrainingFitness", "TrainingPages")">Фитнес-руководство</a>
+            <ul class="manual-inside">
+                <li><a href="@Url.Action("Muscle", "TrainingPages")">Накачаться</a></li>
+                <li><a href="@Url.Action("Slim", "TrainingPages")">Похудеть</a></li>
+                <li><a href="@Url.Action("FitnessBody", "TrainingPages")">Фитнес-тело</a></li>
+                
+            </ul>
+        </li>
+        <li><a href="@Url.Action("Articles_Training", "Article")">Фитнес-статьи</a></li>
+    </ul>
+</div>

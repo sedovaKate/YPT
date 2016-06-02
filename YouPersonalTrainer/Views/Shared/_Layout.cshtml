@@ -1,0 +1,64 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+        <meta charset="utf-8" />
+        <title>@ViewBag.Title </title>
+        <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        
+        <meta name="viewport" content="width=device-width" />
+        @Styles.Render("~/Content/css")
+        
+        @Scripts.Render("~/bundles/modernizr")
+    </head>
+       
+    <body>
+
+        <nav>
+            <ul class="header">
+                <li class="headline">
+                    <p class="site-title">@Html.ActionLink("Твой личный тренер", "BasePage", "Home")</p>               
+                </li>              
+                <li class="registration">
+                    <section id="login">@Html.Partial("_LoginPartial")</section>  
+                </li>
+            </ul>               
+         </nav>        
+           
+        <section class="menu1">
+            <nav>
+                <ul class="menu">
+                    <li>@Html.ActionLink("Питание", "Diet", "Home")</li>
+                    <li class="training-top">@Html.ActionLink("Тренировки", "BasePage", "Home")
+                        <ul class="training-inside">
+                            <li><a href="@Url.Action("TrainingFitness", "TrainingPages")">Фитнес</a></li>
+                            <li><a href="@Url.Action("TrainingRunning", "TrainingPages")">Бег</a></li>
+                        </ul>
+                    </li>
+                    <li><img src="./content/Images/logo1.png" width="80" height="80" alt="lorem" /></li>   
+                    <li id="trainer_menu_for">@Html.ActionLink("Дневник", "Journal", "Home")</li>
+                    <li>@Html.ActionLink("Статьи", "Article", "Article")</li>
+                </ul>
+            </nav>
+        </section>
+
+       
+        
+
+
+        <div id="body">
+            @RenderSection("featured", required: false)
+            <section class="content-wrapper main-content clear-fix">
+                @RenderBody()
+            </section>
+        </div>
+     
+        <footer>
+            <div class="content-wrapper">               
+                    <p>&copy; @DateTime.Now.Year - My ASP.NET MVC Application</p>
+            </div>
+        </footer>
+         @Scripts.Render("~/bundles/jquery")
+        @RenderSection("scripts", required: false)
+    </body>
+</html>
