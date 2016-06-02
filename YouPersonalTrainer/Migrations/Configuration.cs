@@ -15,9 +15,16 @@ namespace YouPersonalTrainer.Migrations
 
         protected override void Seed(YouPersonalTrainer.Models.YPTDB context)
         {
-            string text = System.IO.File.ReadAllText(@"C:\Users\1\ñòàòüÿ1.txt");
-            context.Articles.AddOrUpdate(new Article { Title = "ÏÎÃÎÂÎĞÈÌ Î ÊÀËÎĞÈßÕ", Text = text });
-            context.Trainings.AddOrUpdate(new Training { Title = "Test" });
+            var collection = context.Articles;
+            foreach (var item in collection)
+            {
+                context.Articles.Remove(item);
+            }
+            context.Articles.AddOrUpdate(new Article { Title = "ÏÎÃÎÂÎĞÈÌ Î ÊÀËÎĞÈßÕ", Text = "text1234566àâïâïğâåğâåğâåğå", Category = 0, Id = 1 });
+            
+            
+            context.Trainings.AddOrUpdate(new Training { Title = "Test", Text = "text09877654038409729" });
+            
 
             //  This method will be called after migrating to the latest version.
 

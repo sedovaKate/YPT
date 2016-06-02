@@ -213,6 +213,14 @@
     <Compile Include="Migrations\201605262004410_TrainingMigration.Designer.cs">
       <DependentUpon>201605262004410_TrainingMigration.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606021942258_Second.cs" />
+    <Compile Include="Migrations\201606021942258_Second.Designer.cs">
+      <DependentUpon>201606021942258_Second.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201606022004254_Second1.cs" />
+    <Compile Include="Migrations\201606022004254_Second1.Designer.cs">
+      <DependentUpon>201606022004254_Second1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Article.cs" />
@@ -414,6 +422,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201605262004410_TrainingMigration.resx">
       <DependentUpon>201605262004410_TrainingMigration.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606021942258_Second.resx">
+      <DependentUpon>201606021942258_Second.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606022004254_Second1.resx">
+      <DependentUpon>201606022004254_Second1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -13,5 +13,7 @@ namespace YouPersonalTrainer.Models
 
         [Required]
         public string Title { get; set; }
+
+        public string Text { get; set; }
     }
 }
