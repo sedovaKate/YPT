@@ -428,7 +428,7 @@ margin: 0 110px 0 80px;
 background-color: #fff;
 }
 
-.img0 {
+.imgProperNutrition {
     background: #fff url("/content/Images/image1.jpg") repeat;
     display: block;
     width:100%;
@@ -437,8 +437,16 @@ background-color: #fff;
     padding: 0 0 0 20px;
 }
 
-.img1 {
+.imgProteinDietProteinDiet {
     background: #fff url("/content/Images/4222.jpg") repeat;
+    display: block;
+    width:100%;
+    margin: 0 -20px 0 0;
+    height: 260px;
+}
+
+.imgVegetarianCuisine {
+    background: #fff url("/content/Images/66-2.jpg") repeat;
     display: block;
     width:100%;
     margin: 0 -20px 0 0;
