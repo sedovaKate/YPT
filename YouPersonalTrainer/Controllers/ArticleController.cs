@@ -84,25 +84,27 @@ namespace YouPersonalTrainer.Controllers
               {
                   return ArticlesTypes.Diet;
               }
-              return ArticlesTypes.Training;
+               
+        
 
               if (id == "Training")
               {
                   return ArticlesTypes.Training;
               }
-              return ArticlesTypes.Diet;
-
+              
+        
+           
               if (id == "News")
               {
                   return ArticlesTypes.News;
               }
-              return ArticlesTypes.Diet;
+              
 
               if (id == "Health")
               {
                   return ArticlesTypes.Health;
               }
-              return ArticlesTypes.Diet;
+              
 
               if (id == "Motivation")
               {

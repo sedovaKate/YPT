@@ -18,6 +18,7 @@ namespace YouPersonalTrainer.Models
 
         [Required]
         public string Text { get; set; }
+
         [Required]
         public ArticlesTypes Category { get; set; }
 

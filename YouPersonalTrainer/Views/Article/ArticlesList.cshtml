@@ -1,19 +1,6 @@
 ﻿@model YouPersonalTrainer.Models.ArticlesViewModel
-{
+
 @using YouPersonalTrainer.Models
-}
-
-
-@{
-    ViewBag.Title = "ArticlesList";
-}
-
-@foreach (var item in Model.Articles)
-{
-    <text>@item.Title<br /></text>
-    <text>@item.Text</text>
-}
-
 
 <div>
     <ul class="ArticlesMenu">
@@ -24,3 +11,17 @@
         <li><a href="@Url.Action("ArticlesList", "Article", new { id = "News" })">Новости</a></li>
     </ul>
 </div>
+
+
+
+@foreach (var item in Model.Articles)
+{
+ <div>
+        <ul class="ArticlesTable ">
+            <li><a href="#"><img class="image" src="#" alt="ex1" width="200" height="170"/>@Html.DisplayFor(modelItem => item.Title)
+            </a></li>                  
+        </ul>
+ </div>
+
+}
+   

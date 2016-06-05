@@ -415,6 +415,100 @@ background-image: url("/Content/Images/5.jpg");
     }
 
 
+.bodyDiet {
+display: block;
+width: 100%;
+background-color: #fff;
+}
+
+.content {
+display: block;
+width: 88%;
+margin: 0 110px 0 80px;
+background-color: #fff;
+}
+
+.img0 {
+    background: #fff url("/content/Images/image1.jpg") repeat;
+    display: block;
+    width:100%;
+    margin: 0 -60px 0 0;
+    height: 260px;
+    padding: 0 0 0 20px;
+}
+
+.img1 {
+    background: #fff url("/content/Images/4222.jpg") repeat;
+    display: block;
+    width:100%;
+    margin: 0 -20px 0 0;
+    height: 260px;
+}
+     /*ProperNutrition PAGE
+----------------------------------------------------------*/
+ .DietHeader1  {
+    display: block;    
+    text-align: center;
+    color: #000;
+    margin: 30px 0 0 0;
+    font: normal 36px "Corbel";
+}
+.DietHeader {
+    display: block;
+    text-align: left;
+    margin: 10px 0 10px 100px;
+    font: normal 28px "Corbel";
+}
+
+.DietText {
+    background-color: #fff;
+    width: 1000px;
+    display: block;
+    text-align: justify;
+    line-height: 1.7;
+    font: normal 20px "Corbel";
+    text-decoration: none;
+    padding: 0 20px 0 100px;    
+}
+
+.Footnote {
+    background-color: #f6f2c0;
+    width: 1000px;
+    height: 100%;
+    display: block;
+    text-align: justify;
+    line-height: 1.7;
+    font: normal 20px "Corbel";
+    text-decoration: none;
+    padding: 0 0 17px 0;
+    margin: 10px 0 30px 100px;
+}
+
+    .Footnote::before {
+    content: url(/Content/Images/mark.png);
+    }
+.info1 {
+    display: inline-block;
+    text-align: justify;
+    margin: 5px 70px 5px 50px;
+    
+}
+
+    .info1 li {
+        text-align: justify;
+        width: 950px;
+        line-height: 4;
+        font: normal 20px "Corbel";
+        text-decoration: none;
+        list-style-type: square;
+        line-height: 1.5;
+        padding: 5px 20px 4px 5px;
+    }
+
+.DietHeader2 {
+    font: normal 23px "Corbel";
+}
+
     /*TRAINING FITNESS PAGE
 ----------------------------------------------------------*/
 
@@ -597,6 +691,40 @@ ul.MenuFitness .manual-inside {
 
 
 
+            /*ARTICLES DIET*/
+.ArticlesTable {
+    display: inline-block;
+    width: 50%;       
+    margin: 10px 0 10px 0;
+    text-align: center;    
+}
+
+
+
+
+    .ArticlesTable li {
+        width: 27%;
+        display: inline-block;        
+        text-align: center;      
+        margin: 5px 0 10px 20px;
+        padding: 10px 0 0 40px;
+    }
+
+
+        .ArticlesTable li a {
+            font: normal 13px "Segoe UI";
+            text-decoration: none;
+            margin: 0;
+            padding: 0 0 20px 0;
+            list-style-image: none;
+            letter-spacing: 3px;            
+        }
+
+
+            .ArticlesTable li a:hover {
+                color: #C0C0C0;
+            }
+            
 
 
 
