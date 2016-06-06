@@ -17,6 +17,13 @@ namespace YouPersonalTrainer.Controllers
     [InitializeSimpleMembership]
     public class AccountController : Controller
     {
+
+
+        public ActionResult YourPage()
+        {
+            ViewBag.Message = "Твоя страница";
+            return View();
+        }
         //
         // GET: /Account/Login
 
@@ -54,7 +61,7 @@ namespace YouPersonalTrainer.Controllers
         {
             WebSecurity.Logout();
 
-            return RedirectToAction("BasePage", "Home");
+            return RedirectToAction("Register", "Account");
         }
 
         //
@@ -68,6 +75,8 @@ namespace YouPersonalTrainer.Controllers
             return View();
         }
 
+
+        
         //
         // POST: /Account/Register
 
@@ -81,9 +90,9 @@ namespace YouPersonalTrainer.Controllers
                 // Attempt to register the user
                 try
                 {
-                    WebSecurity.CreateUserAndAccount(model.UserName, model.Password);
+                    WebSecurity.CreateUserAndAccount(model.UserName, model.Password, model.Email);
                     WebSecurity.Login(model.UserName, model.Password);
-                    return RedirectToAction("BasePage", "Home");
+                    return RedirectToAction("YourPage", "Account");
                 }
                 catch (MembershipCreateUserException e)
                 {
@@ -339,7 +348,7 @@ namespace YouPersonalTrainer.Controllers
             }
             else
             {
-                return RedirectToAction("Index", "Home");
+                return RedirectToAction("YourPage", "Account");
             }
         }
 

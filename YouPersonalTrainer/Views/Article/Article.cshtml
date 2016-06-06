@@ -15,13 +15,7 @@
 
 <h3><a href="@Url.Action("ArticlesList", "Article", new { id = "Diet" })">Питание</a></h3>
 
-@foreach (var item in Model.Articles)
-{
-    
-    <ul class="ListArticlesDiet">
-        <li><a href="#">@item.Title</a></li>    
-    </ul>
-}
+
     <h3><a href="@Url.Action("ArticlesList", "Article", new { id = "Training" })">Трениовочный процесс</a></h3>
     <ul class="ListArticlesFitness">
         <li></li>

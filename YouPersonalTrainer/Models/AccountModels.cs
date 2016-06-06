@@ -86,6 +86,15 @@ namespace YouPersonalTrainer.Models
         [Display(Name = "Подтвердите пароль")]
         [Compare("Password", ErrorMessage = "Пароли не совпадают.")]
         public string ConfirmPassword { get; set; }
+
+        [Display(Name = "Ваш Email")]
+        [DataType(DataType.EmailAddress)]
+        public string Email { get; set; }
+
+        [Display(Name = "Дата рождения")]
+        [DataType(DataType.Date)]
+        public int Date { get; set; }
+    
     }
 
     public class ExternalLogin

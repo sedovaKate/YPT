@@ -230,11 +230,12 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Content\Images\05143358.jpg" />
     <Content Include="Content\Images\10.jpg" />
     <Content Include="Content\Images\101.jpg" />
     <Content Include="Content\Images\11.jpg" />
     <Content Include="Content\Images\12.jpg" />
+    <Content Include="Content\Images\13.jpg" />
+    <Content Include="Content\Images\15.jpg" />
     <Content Include="Content\Images\4.jpg" />
     <Content Include="Content\Images\41.jpg" />
     <Content Include="Content\Images\42.jpg" />
@@ -250,7 +251,6 @@
     <Content Include="Content\Images\51.jpg" />
     <Content Include="Content\Images\52.jpg" />
     <Content Include="Content\Images\53.jpg" />
-    <Content Include="Content\Images\533.jpg" />
     <Content Include="Content\Images\54.jpg" />
     <Content Include="Content\Images\55.jpg" />
     <Content Include="Content\Images\6.jpg" />
@@ -262,21 +262,19 @@
     <Content Include="Content\Images\61 %285%29.jpg" />
     <Content Include="Content\Images\62.jpg" />
     <Content Include="Content\Images\63.jpg" />
-    <Content Include="Content\Images\633.jpg" />
     <Content Include="Content\Images\64.jpg" />
     <Content Include="Content\Images\65.jpg" />
     <Content Include="Content\Images\66.jpg" />
+    <Content Include="Content\Images\67.jpg" />
+    <Content Include="Content\Images\68.jpg" />
+    <Content Include="Content\Images\69.jpg" />
     <Content Include="Content\Images\7.jpg" />
+    <Content Include="Content\Images\70.jpg" />
+    <Content Include="Content\Images\71.jpg" />
     <Content Include="Content\Images\8.jpg" />
     <Content Include="Content\Images\9.jpg" />
-    <Content Include="Content\Images\a60778_3890d1651d694b0eb93d5791b77d634b.jpg" />
     <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Images\logo1.png" />
-    <Content Include="Content\Images\veg02_201112.jpg" />
-    <Content Include="Content\Images\VEGETARIANI.jpg" />
-    <Content Include="Content\Images\water-balance.jpg" />
-    <Content Include="Content\Images\what-does-200-calories-look-like.jpg" />
-    <Content Include="Content\Images\вегетарианство-для-похудения-800x445.jpg" />
     <Content Include="Content\themes\base\images\bx_loader.gif" />
     <Content Include="Content\themes\base\images\controls.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png">
@@ -394,6 +392,7 @@
     <Content Include="Views\TrainingPages\FitnessBody.cshtml" />
     <Content Include="Views\Article\Article.cshtml" />
     <Content Include="Views\Article\ArticlesList.cshtml" />
+    <Content Include="Views\Account\YourPage.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
