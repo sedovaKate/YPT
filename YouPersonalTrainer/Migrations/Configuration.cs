@@ -28,7 +28,17 @@ namespace YouPersonalTrainer.Migrations
             context.Articles.AddOrUpdate(new Article { Title = "ПИТЬЕВОЙ РЕЖИМ ВО ВРЕМЯ  ЗАНЯТИЙ СПОРТОМ", Footnote = "Результаты проведенных исследований показывают, что «сухие» занятия любым спортом на 10% менее эффективны.", Text = "Во время занятий спортом за счет мышечной работы, учащенного дыхания и потоотделения человек теряет значительное количество жидкости. Это может повлечь за собой серьезные нарушения работы почек и сердечно-сосудистой системы. Соответственно, чтобы избежать негативных последствий, нужно следить за водным балансом во время физической нагрузки.", Category = 0, Id = 6 });
             context.Articles.AddOrUpdate(new Article { Title = "РАЗМЕР ПОРЦИИ", Text = "Известно, что в тарелке должно быть еды ровно столько, чтобы не выйти из-за стола голодными, но и не переесть. Как этого добиться? Ведь порой всё равно трудно удержаться от лишнего кусочка пирога. ", Category = 0, Id = 7 });
             context.Articles.AddOrUpdate(new Article { Title = "РЕАКЦИЯ ОРГАНИЗМА НА АЛКОГОЛЬ", Text = "Подавляющее большинство населения так или иначе пробовало употреблять спиртные напитки и делает это с некоторой периодичностью. Существует немало людей, полностью отказавшихся от алкоголя, но еще больше тех, кто не представляет жизнь без спиртных напитков. Давайте разберемся, как именно алкоголь влияет на нас.", Category = 0, Id = 8 });
-          
+            context.Trainings.AddOrUpdate(new Training { Id = 1 });
+            /*var collection1 = context.Products;
+            foreach (var item in collection1)
+            {
+                context.Products.Remove(item);
+            }*/
+            context.Products.AddOrUpdate(
+                new Products { Title = "Морковь", Protein = 1.3, Fat = 0.1, Carbohidrate = 6.9, Energy = 35, Id = 1 },
+                new Products { Title = "Кабачок", Protein = 0.6, Fat = 0.3, Carbohidrate = 4.6, Energy = 24, Id = 2 }
+                );
+
             
             /*context.Articles.AddOrUpdate(new Article { Title = "", Text = "", Category = 0, Id = 9 });
            context.Articles.AddOrUpdate(new Article { Title = "", Text = "", Category = 0, Id = 10 });*/

@@ -201,6 +201,7 @@
     <Compile Include="Controllers\PurposeController.cs" />
     <Compile Include="Controllers\TrainingPagesController.cs" />
     <Compile Include="Enum\ArticlesType.cs" />
+    <Compile Include="Enum\ProductsType.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -221,10 +222,15 @@
     <Compile Include="Migrations\201606022004254_Second1.Designer.cs">
       <DependentUpon>201606022004254_Second1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606061315091_Products.cs" />
+    <Compile Include="Migrations\201606061315091_Products.Designer.cs">
+      <DependentUpon>201606061315091_Products.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Article.cs" />
     <Compile Include="Models\ArticlesViewModel.cs" />
+    <Compile Include="Models\Products.cs" />
     <Compile Include="Models\Training.cs" />
     <Compile Include="Models\YPTDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -422,6 +428,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606022004254_Second1.resx">
       <DependentUpon>201606022004254_Second1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606061315091_Products.resx">
+      <DependentUpon>201606061315091_Products.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
