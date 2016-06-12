@@ -14,4 +14,6 @@ namespace YouPersonalTrainer.Models
             Articles = new List<Article>();
         }
     }
+
+    
 }

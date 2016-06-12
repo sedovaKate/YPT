@@ -201,6 +201,7 @@
     <Compile Include="Controllers\PurposeController.cs" />
     <Compile Include="Controllers\TrainingPagesController.cs" />
     <Compile Include="Enum\ArticlesType.cs" />
+    <Compile Include="Enum\ProductsType.cs" />
     <Compile Include="Filters\InitializeSimpleMembershipAttribute.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -221,10 +222,16 @@
     <Compile Include="Migrations\201606022004254_Second1.Designer.cs">
       <DependentUpon>201606022004254_Second1.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201606111918467_PrMigrTest.cs" />
+    <Compile Include="Migrations\201606111918467_PrMigrTest.Designer.cs">
+      <DependentUpon>201606111918467_PrMigrTest.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Article.cs" />
     <Compile Include="Models\ArticlesViewModel.cs" />
+    <Compile Include="Models\Product.cs" />
+    <Compile Include="Models\ProductsViewModel.cs" />
     <Compile Include="Models\Training.cs" />
     <Compile Include="Models\YPTDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -393,6 +400,7 @@
     <Content Include="Views\Article\Article.cshtml" />
     <Content Include="Views\Article\ArticlesList.cshtml" />
     <Content Include="Views\Account\YourPage.cshtml" />
+    <Content Include="Views\Calories\CaloriesList.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -422,6 +430,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\201606022004254_Second1.resx">
       <DependentUpon>201606022004254_Second1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201606111918467_PrMigrTest.resx">
+      <DependentUpon>201606111918467_PrMigrTest.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

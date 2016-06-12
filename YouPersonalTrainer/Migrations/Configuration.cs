@@ -28,9 +28,9 @@ namespace YouPersonalTrainer.Migrations
             context.Articles.AddOrUpdate(new Article { Title = "ПИТЬЕВОЙ РЕЖИМ ВО ВРЕМЯ  ЗАНЯТИЙ СПОРТОМ", Footnote = "Результаты проведенных исследований показывают, что «сухие» занятия любым спортом на 10% менее эффективны.", Text = "Во время занятий спортом за счет мышечной работы, учащенного дыхания и потоотделения человек теряет значительное количество жидкости. Это может повлечь за собой серьезные нарушения работы почек и сердечно-сосудистой системы. Соответственно, чтобы избежать негативных последствий, нужно следить за водным балансом во время физической нагрузки.", Category = 0, Id = 6 });
             context.Articles.AddOrUpdate(new Article { Title = "РАЗМЕР ПОРЦИИ", Text = "Известно, что в тарелке должно быть еды ровно столько, чтобы не выйти из-за стола голодными, но и не переесть. Как этого добиться? Ведь порой всё равно трудно удержаться от лишнего кусочка пирога. ", Category = 0, Id = 7 });
             context.Articles.AddOrUpdate(new Article { Title = "РЕАКЦИЯ ОРГАНИЗМА НА АЛКОГОЛЬ", Text = "Подавляющее большинство населения так или иначе пробовало употреблять спиртные напитки и делает это с некоторой периодичностью. Существует немало людей, полностью отказавшихся от алкоголя, но еще больше тех, кто не представляет жизнь без спиртных напитков. Давайте разберемся, как именно алкоголь влияет на нас.", Category = 0, Id = 8 });
-          
-            
-            /*context.Articles.AddOrUpdate(new Article { Title = "", Text = "", Category = 0, Id = 9 });
+            context.Trainings.AddOrUpdate(new Training { Id = 1, Title="gpgp" });
+            context.Trainings.AddOrUpdate(new Training { Id = 2, Title = "lol", Text = "podfopsri" });
+            context.Product.AddOrUpdate(new Product { Id = 1, Title = "Carrot", Category = 0, Protein = 0.9, Fat = 0.2, Carbohidrate = 10, Energy = 41 });             /*context.Articles.AddOrUpdate(new Article { Title = "", Text = "", Category = 0, Id = 9 });
            context.Articles.AddOrUpdate(new Article { Title = "", Text = "", Category = 0, Id = 10 });*/
            
             

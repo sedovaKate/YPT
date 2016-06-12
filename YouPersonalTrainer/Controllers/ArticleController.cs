@@ -12,54 +12,18 @@ namespace YouPersonalTrainer.Controllers
     {
         //
         // GET: /Article/
-      public ActionResult Article()
+     public ActionResult Article(string id)
         {
-
-            ViewBag.Message = "Статьи";
-            return View();
-        }
-      /* public ActionResult Article_Running()
-     {
-
-         ViewBag.Message = "Бег";
-         return View();
-     }
-
-     public ActionResult Articles_Motivation()
-     {
-
-         ViewBag.Message = "Мотивация";
-         return View();
-     }
-
-     public ActionResult Articles_Diet()
-     {
-
-         ViewBag.Message = "Питание";
-         return View();
-     }
-
-     public ActionResult Articles_Health()
-     {
-
-         ViewBag.Message = "Здоровье";
-         return View();
-     }
-
-     public ActionResult Articles_News()
-     {
-
-         ViewBag.Message = "Новости";
-         return View();
-     }
-
-     public ActionResult Articles_Fitness()
-       {
-
-           ViewBag.Message = "Фитнес";
-            return View();
-       }*/
-       
+            YPTDB art = new YPTDB();
+            var category = ParseId(id);
+            var list = art.Articles.Where(a => a.Category == category).ToList();
+            ArticlesViewModel viewModel = new ArticlesViewModel();
+            foreach (var item in list)
+            {
+                viewModel.Articles.Add(item);
+            }
+            return View(viewModel);
+        }      
           public ActionResult ArticlesList(string id)
           {
               if (id == null)
@@ -76,35 +40,25 @@ namespace YouPersonalTrainer.Controllers
               }
               return View(viewModel);
           }
-
-
           private ArticlesTypes ParseId(string id)
           {
               if (id == "Diet")
               {
                   return ArticlesTypes.Diet;
-              }
-               
-        
-
+              } 
               if (id == "Training")
               {
                   return ArticlesTypes.Training;
-              }
-              
-        
-           
+              } 
               if (id == "News")
               {
                   return ArticlesTypes.News;
-              }
-              
+              }              
 
               if (id == "Health")
               {
                   return ArticlesTypes.Health;
-              }
-              
+              }              
 
               if (id == "Motivation")
               {

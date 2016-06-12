@@ -1,0 +1,19 @@
+﻿@model YouPersonalTrainer.Models.ProductsViewModel
+
+@using YouPersonalTrainer.Models
+
+<div class="Calories">
+    <h2>Таблица калорийности продуктов</h2>
+</div>
+
+ @foreach (var item in Model.Products)
+{
+ <div>
+        <ul class="CaloriesProductTable">
+            <li><a href="#"><img class="image" src="#" alt="ex1" width="200" height="170"/>@Html.DisplayFor(modelItem => item.Title)
+            </a></li>    
+            <li>@item.Title</li>              
+        </ul>
+ </div>
+
+}
