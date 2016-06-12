@@ -170,4 +170,8 @@ C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.pdb
 C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.Migrations.Second.resources
 C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.Migrations.Second1.resources
 C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.csprojResolveAssemblyReference.cache
+<<<<<<< HEAD
 C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.Migrations.PrMigrTest.resources
+=======
+C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.Migrations.Products.resources
+>>>>>>> dcd4f29919c27d78918ffc29f9bfe6d762c7a58d

@@ -222,16 +222,26 @@
     <Compile Include="Migrations\201606022004254_Second1.Designer.cs">
       <DependentUpon>201606022004254_Second1.cs</DependentUpon>
     </Compile>
+<<<<<<< HEAD
     <Compile Include="Migrations\201606111918467_PrMigrTest.cs" />
     <Compile Include="Migrations\201606111918467_PrMigrTest.Designer.cs">
       <DependentUpon>201606111918467_PrMigrTest.cs</DependentUpon>
+=======
+    <Compile Include="Migrations\201606061315091_Products.cs" />
+    <Compile Include="Migrations\201606061315091_Products.Designer.cs">
+      <DependentUpon>201606061315091_Products.cs</DependentUpon>
+>>>>>>> dcd4f29919c27d78918ffc29f9bfe6d762c7a58d
     </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Article.cs" />
     <Compile Include="Models\ArticlesViewModel.cs" />
+<<<<<<< HEAD
     <Compile Include="Models\Product.cs" />
     <Compile Include="Models\ProductsViewModel.cs" />
+=======
+    <Compile Include="Models\Products.cs" />
+>>>>>>> dcd4f29919c27d78918ffc29f9bfe6d762c7a58d
     <Compile Include="Models\Training.cs" />
     <Compile Include="Models\YPTDB.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -431,8 +441,13 @@
     <EmbeddedResource Include="Migrations\201606022004254_Second1.resx">
       <DependentUpon>201606022004254_Second1.cs</DependentUpon>
     </EmbeddedResource>
+<<<<<<< HEAD
     <EmbeddedResource Include="Migrations\201606111918467_PrMigrTest.resx">
       <DependentUpon>201606111918467_PrMigrTest.cs</DependentUpon>
+=======
+    <EmbeddedResource Include="Migrations\201606061315091_Products.resx">
+      <DependentUpon>201606061315091_Products.cs</DependentUpon>
+>>>>>>> dcd4f29919c27d78918ffc29f9bfe6d762c7a58d
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
