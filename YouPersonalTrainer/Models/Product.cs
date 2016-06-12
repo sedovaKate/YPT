@@ -26,6 +26,7 @@ namespace YouPersonalTrainer.Models
             [Required]
             public double Energy { get; set; }
 
+            [Required]
             public ProductsType Category { get; set; }
 
 

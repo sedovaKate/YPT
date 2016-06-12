@@ -162,12 +162,5 @@ C:\Users\1\Documents\YPT\YouPersonalTrainer\bin\ko\System.Spatial.resources.dll
 C:\Users\1\Documents\YPT\YouPersonalTrainer\bin\ru\System.Spatial.resources.dll
 C:\Users\1\Documents\YPT\YouPersonalTrainer\bin\zh-Hans\System.Spatial.resources.dll
 C:\Users\1\Documents\YPT\YouPersonalTrainer\bin\zh-Hant\System.Spatial.resources.dll
-C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.Migrations.MyFirstMigration.resources
-C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.Migrations.TrainingMigration.resources
-C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.csproj.GenerateResource.Cache
 C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.dll
 C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.pdb
-C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.Migrations.Second.resources
-C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.Migrations.Second1.resources
-C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.csprojResolveAssemblyReference.cache
-C:\Users\1\Documents\YPT\YouPersonalTrainer\obj\Debug\YouPersonalTrainer.Migrations.PrMigrTest.resources

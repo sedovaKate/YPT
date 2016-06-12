@@ -14,7 +14,9 @@
 
         public virtual DbSet<Article> Articles { get; set; }
         public virtual DbSet<Training> Trainings { get; set; }
+
         public virtual DbSet<Product> Product { get; set; }
+
 
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {

@@ -206,26 +206,6 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
-    <Compile Include="Migrations\201605261912061_MyFirstMigration.cs" />
-    <Compile Include="Migrations\201605261912061_MyFirstMigration.Designer.cs">
-      <DependentUpon>201605261912061_MyFirstMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201605262004410_TrainingMigration.cs" />
-    <Compile Include="Migrations\201605262004410_TrainingMigration.Designer.cs">
-      <DependentUpon>201605262004410_TrainingMigration.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201606021942258_Second.cs" />
-    <Compile Include="Migrations\201606021942258_Second.Designer.cs">
-      <DependentUpon>201606021942258_Second.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201606022004254_Second1.cs" />
-    <Compile Include="Migrations\201606022004254_Second1.Designer.cs">
-      <DependentUpon>201606022004254_Second1.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Migrations\201606111918467_PrMigrTest.cs" />
-    <Compile Include="Migrations\201606111918467_PrMigrTest.Designer.cs">
-      <DependentUpon>201606111918467_PrMigrTest.cs</DependentUpon>
-    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountModels.cs" />
     <Compile Include="Models\Article.cs" />
@@ -237,12 +217,11 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\Images\05143358.jpg" />
     <Content Include="Content\Images\10.jpg" />
     <Content Include="Content\Images\101.jpg" />
     <Content Include="Content\Images\11.jpg" />
     <Content Include="Content\Images\12.jpg" />
-    <Content Include="Content\Images\13.jpg" />
-    <Content Include="Content\Images\15.jpg" />
     <Content Include="Content\Images\4.jpg" />
     <Content Include="Content\Images\41.jpg" />
     <Content Include="Content\Images\42.jpg" />
@@ -258,6 +237,7 @@
     <Content Include="Content\Images\51.jpg" />
     <Content Include="Content\Images\52.jpg" />
     <Content Include="Content\Images\53.jpg" />
+    <Content Include="Content\Images\533.jpg" />
     <Content Include="Content\Images\54.jpg" />
     <Content Include="Content\Images\55.jpg" />
     <Content Include="Content\Images\6.jpg" />
@@ -269,19 +249,21 @@
     <Content Include="Content\Images\61 %285%29.jpg" />
     <Content Include="Content\Images\62.jpg" />
     <Content Include="Content\Images\63.jpg" />
+    <Content Include="Content\Images\633.jpg" />
     <Content Include="Content\Images\64.jpg" />
     <Content Include="Content\Images\65.jpg" />
     <Content Include="Content\Images\66.jpg" />
-    <Content Include="Content\Images\67.jpg" />
-    <Content Include="Content\Images\68.jpg" />
-    <Content Include="Content\Images\69.jpg" />
     <Content Include="Content\Images\7.jpg" />
-    <Content Include="Content\Images\70.jpg" />
-    <Content Include="Content\Images\71.jpg" />
     <Content Include="Content\Images\8.jpg" />
     <Content Include="Content\Images\9.jpg" />
+    <Content Include="Content\Images\a60778_3890d1651d694b0eb93d5791b77d634b.jpg" />
     <Content Include="Content\Images\logo.png" />
     <Content Include="Content\Images\logo1.png" />
+    <Content Include="Content\Images\veg02_201112.jpg" />
+    <Content Include="Content\Images\VEGETARIANI.jpg" />
+    <Content Include="Content\Images\water-balance.jpg" />
+    <Content Include="Content\Images\what-does-200-calories-look-like.jpg" />
+    <Content Include="Content\Images\вегетарианство-для-похудения-800x445.jpg" />
     <Content Include="Content\themes\base\images\bx_loader.gif" />
     <Content Include="Content\themes\base\images\controls.png" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png">
@@ -417,23 +399,6 @@
   </ItemGroup>
   <ItemGroup>
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Migrations\201605261912061_MyFirstMigration.resx">
-      <DependentUpon>201605261912061_MyFirstMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201605262004410_TrainingMigration.resx">
-      <DependentUpon>201605262004410_TrainingMigration.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201606021942258_Second.resx">
-      <DependentUpon>201606021942258_Second.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201606022004254_Second1.resx">
-      <DependentUpon>201606022004254_Second1.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Migrations\201606111918467_PrMigrTest.resx">
-      <DependentUpon>201606111918467_PrMigrTest.cs</DependentUpon>
-    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
